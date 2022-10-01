@@ -1,23 +1,11 @@
-<header class="page-header">
-      <nav class="navigation">
-        <a class="navigation-logo" href="index.html">
-            <!-- todo: Add src="logo.svg" -->
-          <img class="page-header-logo" src="" alt="Логотип сайта Седона.">
-        </a>
-1. Надо ли на главной странице сайта добавлять в href index.html при нажатии на логотип?
-Или поставить "#"?
-
-<li class="navigation-item">
-            <a class="navigation-link" href="index.html">Главная</a>
-          </li>
-2. Надо ли в навигации добавлять в href index.html при нажатии на "Главная"?
-Или поставить "#"?
-
             <!-- A button for form window "Поиск гостиницы в Седоне" -->
             <a class="button button-search-hotel" href="#">
               <span class="visually-hidden">Поиск гостиницы</span>
               Хочу сюда!
             </a>
 3.1. Корректно ли не обрамлять тегом: <span>Хочу сюда!</span>?
-3.2. Правильно ли тут указан тег <a>, а не чистый <button>?
-Или же это придётся переделывать когда будем верстать страницу формы поиска.
+
+features, benefits — список основных особенностей товара, услуги
+pagination — постраничная навигация
+breadcrumbs — навигационная цепочка, «хлебные крошки»
+«»
