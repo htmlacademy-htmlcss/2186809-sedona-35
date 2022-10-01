@@ -21,6 +21,7 @@
             <a class="navigation-link" href="catalog.html">Гостиницы</a>
           </li>
         </ul>
+
         <ul class="navigation-list navigation-user">
           <li class="navigation-item">
             <a class="navigation-link" href="#">
@@ -52,6 +53,7 @@
         <p class="description-slogan">Седона — небольшой городок в Аризоне, заслуживающий большего!</p>
         <p class="description-text">Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
       </section>
+
       <section class="advantages">
         <h2 class="visually-hidden">Преимущества</h2>
         <ul class="advantages-list">
@@ -94,21 +96,62 @@
           </li>
         </ul>
       </section>
+
       <section class="search-hotel">
         <h2 class="search-hotel visually-hidden">Поиск гостиницы</h2>
         <p class="search-hotel-title">Заинтересовались?</p>
         <p class="search-hotel-text">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
         <a class="button button-search-hotel" href="#">ПОИСК ГОСТИНИЦЫ В седоне</a>
       </section>
-      <section class="subscription">
-        <h2 class="subscription">Подпишитесь на рассылку</h2>
+    </main>
+
+    <footer class="page-footer">
+      <section class="subscription page-footer main-index">
+        <h2 class="subscription-title">Подпишитесь на рассылку</h2>
         <p class="subscription-text">Только полезная информация и никакого спама, честное бойскаутское!</p>
 
+        <form class="subscription-form" action="https://echo.htmlacademy.ru/" method="post">
+          <label for="subscription-email">Email</label>
+          <input class="field"  placeholder="Ваш e-mail" type="email" name="subscription-email" id="subscription-email" required>
+          <button class="button subscription-button" type="submit">Подписаться</button>
+        </form>
       </section>
-    </main>
-    <footer>
 
+      <section class="footer-social">
+        <h2 class="page-footer-title">Соцсети</h2>
+        <ul class="footer-social-list">
+            <li class="footer-social-item">
+              <a class="button" href="#">
+                <span class="visually-hidden">ВКонтакте</span>
+                <!-- <img class="footer-social-icon" src="" type="icon"> -->
+              </a>
+            </li>
+            <li class="footer-social-item">
+              <a class="button" href="#">
+                <span class="visually-hidden">Телеграм</span>
+                <!-- <img class="footer-social-icon" src="" type="icon"> -->
+              </a>
+            </li>
+            <li class="footer-social-item">
+              <a class="button" href="#">
+                <span class="visually-hidden">Ютуб</span>
+                <!-- <img class="footer-social-icon" src="" type="icon"> -->
+              </a>
+            </li>
+          </ul>
+        </section>
+        <section class="footer-contacts">
+          <h2 class="visually-hidden">Контакты</h2>
+          <address class="footer-contacts-address">
+            <a class="footer-contacts-address-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
+          </address>
+        </section>
+        <section class="footer-developer">
+          <h2 class="visually-hidden">Сайт разработан HTML Academy</h2>
+          <a class="htmlacademy-link" href="https://htmlacademy.ru/">
+            <img class="htmlacademy-logo" src="" alt="Логотип HTML Academy">
+          </a>
+        </section>
     </footer>
-
   </body>
 </html>
