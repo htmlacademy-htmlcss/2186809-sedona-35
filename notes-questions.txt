@@ -1,13 +1,3 @@
-            <!-- A button for form window "Поиск гостиницы в Седоне" -->
-            <a class="button button-search-hotel" href="#">
-              <span class="visually-hidden">Поиск гостиницы</span>
-              Хочу сюда!
-            </a>
-3.1. Корректно ли не обрамлять тегом: <span>Хочу сюда!</span>?
-
-115  <label for="subscription-email">Email</label>
-Почему visually-hidden сразу внутри не прописываем?
-
 features, benefits — список основных особенностей товара, услуги
 pagination — постраничная навигация
 breadcrumbs — навигационная цепочка, «хлебные крошки»
