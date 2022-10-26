@@ -8,7 +8,7 @@
     <header class="page-header">
       <nav class="navigation">
         <a class="navigation-logo" href="index.html">
-          <img class="page-header-logo" src="img/header-logo.svg" alt="Логотип «Город Седона».">
+          <img class="page-header-logo" src="images\head-logo-sedona.svg" width="140" height="70" alt="Логотип «Город Седона».">
         </a>
         <ul class="navigation-list">
           <li class="navigation-item">
@@ -26,13 +26,13 @@
           <li class="navigation-item">
             <a class="navigation-link" href="#">
               <span class="visually-hidden">Поиск</span>
-              <!-- <img class="icon-search" src="" alt="Поиск на сайте"> -->
+              <img class="icon-search" src="images\icons\navigation-loop.svg" width="20" height="20" alt="Поиск на сайте">
             </a>
           </li>
           <li class="navigation-item">
             <a class="navigation-link" href="#">
               <span class="visually-hidden">Избранное</span>
-              <!-- <img class="icon-favorite" src="" alt="Избранное"> -->
+              <img class="icon-favorite" src="images\icons\navigation-favorite.svg" width="18" height="17" alt="Избранное">
               <span class="favorite-number">12</span>
             </a>
           </li>
@@ -50,14 +50,17 @@
 
       <header class="inner-header">
         <h1 class="inner-header-title">Гостиницы Седоны</h1>
+        <img class="filter-background" src="images\catalog-filter-background.png" width="1200" height="408" alt="Панорама каньона и гор в Седоне.">
+
         <ul class="breadcrumbs">
           <li class="breadcrumbs-item">
             <a class="breadcrumbs-link" href="index.html">
               <span class="visually-hidden">Главная</span>
-              <!-- <img class="icon-home" src="" alt="Главная страница"> -->
+              <img class="breadcrumbs-icon-home" src="images\icons\breadcrumbs-home.svg" width="13" height="13" alt="Главная страница">
             </a>
           </li>
           <li class="breadcrumbs-item">
+            <img class="breadcrumbs-icon-arrow" src="images\icons\breadcrumbs-arrow.svg" width="8" height="11" alt="Стрелка-разделитель">
             <a class="breadcrumbs-link">Гостиницы</a>
           </li>
         </ul>
@@ -138,16 +141,16 @@
           <option value="expensive">Сначала дорогие</option>
         </select>
         <a class="button layout-button" href="#">
-          <!-- <img class="icon-tile" src="" alt="Плитка">
-            Прописать как выбранную на макете-->
-          <span class="visually-hidden">Показать плитку</span>
+          <img class="icon-table" src="images\icons\search-view-table.svg" width="48" height="48" alt="Таблица">
+            <!-- Прописать как выбранную на макете (Заново скачать иконки без рамок, когда рамки пропишутся в CSS)-->
+          <span class="visually-hidden">Показать таблицу</span>
         </a>
         <a class="button layout-button" href="#">
-          <!-- <img class="icon-card" src="" alt="Карточка"> -->
-          <span class="visually-hidden">Показать карточки</span>
+          <img class="icon-slydeshow" src="images\icons\search-view-slydeshow.svg" width="48" height="48" alt="Слайдшоу">
+          <span class="visually-hidden">Показать слайдшоу</span>
         </a>
         <a class="button layout-button" href="#">
-          <!-- <img class="icon-list" src="" alt="Список"> -->
+          <img class="icon-list" src="images\icons\search-view-list.svg" width="48" height="48" alt="Список">
           <span class="visually-hidden">Показать список</span>
         </a>
 
@@ -155,7 +158,7 @@
 
           <li class="product-card">
             <a class="product-card-link" href="#">
-              <img class="product-card-image" src="" alt="">
+              <img class="product-card-image" src="images\catalog\hotel-1.jpg" width="300" height="212" alt="Вид звёздного неба из пещеры.">
               <h3 class="product-card-title">Amara Resort &amp; Spa</h3>
             </a>
             <span class="product-card-habitation-type">Гостиница</span>
@@ -164,7 +167,7 @@
             <a class="product-card-button button add-to-favorite" href="#">В избранное</a>
             <div class="product-card-rating">
               <span class="product-card-rating-star four-stars visually-hidden">Четыре звезды</span>
-                  <!-- <img class="icon-star" src="" alt=""> -->
+                  <img class="icon-star" src="images\icons\rating-stars-4.svg" width="140" height="37" alt="">
               </span>
               <a class="product-card-button button rating" href="#">Рейтинг:
                 <span class="product-card-rating-value">8,5</span></a>
@@ -173,7 +176,7 @@
 
           <li class="product-card">
             <a class="product-card-link" href="#">
-              <img class="product-card-image" src="" alt="">
+              <img class="product-card-image" src="images\catalog\hotel-2.jpg" width="300" height="212" alt="Радуга в каньоне.">
               <h3 class="product-card-title">Villas at Poco Diablo</h3>
             </a>
             <span class="product-card-habitation-type">Гостиница</span>
@@ -182,7 +185,7 @@
             <a class="product-card-button button add-to-favorite selected" href="#">В избранном</a>
             <div class="product-card-rating">
               <span class="product-card-rating-star four-stars visually-hidden">Четыре звезды</span>
-                  <!-- <img class="icon-star" src="" alt=""> -->
+                  <img class="icon-star" src="images\icons\rating-stars-4.svg" width="140" height="37" alt="">
               </span>
               <a class="product-card-button button rating" href="#">Рейтинг:
                 <span class="product-card-rating-value">9,2</span></a>
@@ -191,7 +194,7 @@
 
           <li class="product-card">
             <a class="product-card-link" href="#">
-              <img class="product-card-image" src="" alt="">
+              <img class="product-card-image" src="images\catalog\hotel-3.jpg" width="300" height="212" alt="Гора на рассвете.">
               <h3 class="product-card-title">Desert Quail Inn</h3>
             </a>
             <span class="product-card-habitation-type">Гостиница</span>
@@ -200,7 +203,7 @@
             <a class="product-card-button button add-to-favorite" href="#">В избранное</a>
             <div class="product-card-rating">
               <span class="product-card-rating-star three-stars visually-hidden">Три звезды</span>
-                  <!-- <img class="icon-star" src="" alt=""> -->
+                  <img class="icon-star" src="images\icons\rating-stars-3.svg" width="140" height="37" alt="">
               </span>
               <a class="product-card-button button rating" href="#">Рейтинг:
                 <span class="product-card-rating-value">6,9</span></a>
@@ -209,7 +212,7 @@
 
           <li class="product-card">
             <a class="product-card-link" href="#">
-              <img class="product-card-image" src="" alt="">
+              <img class="product-card-image" src="images\catalog\hotel-4.jpg" width="300" height="212" alt="Каньон ночью.">
               <h3 class="product-card-title">GreenTree Inn</h3>
             </a>
             <span class="product-card-habitation-type">Гостиница</span>
@@ -218,7 +221,7 @@
             <a class="product-card-button button add-to-favorite" href="#">В избранное</a>
             <div class="product-card-rating">
               <span class="product-card-rating-star two-stars visually-hidden">Две звезды</span>
-                  <!-- <img class="icon-star" src="" alt=""> -->
+                  <img class="icon-star" src="images\icons\rating-stars-2.svg" width="140" height="37" alt="">
               </span>
               <a class="product-card-button button rating" href="#">Рейтинг:
                 <span class="product-card-rating-value">5,0</span></a>
@@ -267,19 +270,19 @@
             <li class="footer-social-item">
               <a class="button" href="#">
                 <span class="visually-hidden">ВКонтакте</span>
-                <!-- <img class="footer-social-icon" src="" type="icon"> -->
+                <img class="footer-social-icon" src="images\icons\vk.svg" width="25" height="15" type="icon">
               </a>
             </li>
             <li class="footer-social-item">
               <a class="button" href="#">
-                <span class="visually-hidden">Телеграм</span>
-                <!-- <img class="footer-social-icon" src="" type="icon"> -->
+                <span class="visually-hidden">Telegram</span>
+                <img class="footer-social-icon" src="images\icons\telegram.svg" width="18" height="16" type="icon">
               </a>
             </li>
             <li class="footer-social-item">
               <a class="button" href="#">
-                <span class="visually-hidden">Ютуб</span>
-                <!-- <img class="footer-social-icon" src="" type="icon"> -->
+                <span class="visually-hidden">YouTube</span>
+                <img class="footer-social-icon" src="images\icons\youtube.svg" width="23" height="18" type="icon">
               </a>
             </li>
           </ul>
@@ -291,9 +294,9 @@
           </address>
         </section>
         <section class="footer-developer">
-          <h2 class="visually-hidden">Сайт разработан HTML Academy</h2>
+          <h2 class="visually-hidden">Сайт разработан «HTML Academy»</h2>
           <a class="htmlacademy-link" href="https://htmlacademy.ru/">
-            <img class="htmlacademy-logo" src="" alt="Логотип HTML Academy">
+            <img class="htmlacademy-logo" src="images\icons\logo-html-academy.svg" width="115" height="34" alt="Логотип HTML Academy">
           </a>
         </section>
     </footer>
