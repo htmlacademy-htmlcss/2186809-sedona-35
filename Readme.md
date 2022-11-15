@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Анна Хромилина](https://up.htmlacademy.ru/htmlcss/35/user/2186809).
-* Наставник: [Valentyn Diravka](https://htmlacademy.ru/profile/id1567679).
+* Наставник: [Павел Нюкало](https://htmlacademy.ru/profile/id869225).
 
 ---
 
